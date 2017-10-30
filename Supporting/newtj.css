@@ -1,0 +1,265 @@
+/* ----------------Top Buttons Links Codes Start--------------------- */
+
+.buttonBar{
+width:80%;
+height:22px;
+float:left;
+background-image:url(../images_cand/newtj_img/stretchbar.jpg);
+padding-top:4px;
+}
+
+
+
+.buttons a{
+	
+	display: block; 
+	background-image:url(../images_cand/newtj_img/buttons-static.jpg);
+	background-repeat:no-repeat;
+	width:117px;
+	height:16px;
+	padding-top:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+	margin-left:2px;
+	
+}
+.buttons a:hover{text-decoration:none; color:#00000; float:left; background-image:url(../images_cand/newtj_img/hoverarrow.gif); background-repeat:no-repeat; background-position:center top;}
+
+.buttons-active a{
+	display: block; 
+	background-image:url(../images_cand/newtj_img/buttons-active.jpg);
+	background-repeat:no-repeat;
+	width:117px;
+	height:17px;
+	padding-top:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#055AA0;
+	text-decoration:none;
+	text-align:center;
+	float:left;
+	margin-left:2px;
+	
+}
+.buttons-active a:hover{text-decoration:none; background-image:url(../images_cand/newtj_img/buttons-active.jpg);
+	background-repeat:no-repeat; color:#055AA0; }
+/* ----------------Top Buttons Links Codes Start--------------------- */
+
+
+/*        Chrome Menu Start        */
+
+.chromestyle{
+width: 99%;
+font-weight: bold;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 10px; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+border: 1px solid #BBB;
+width: 100%;
+background: url(chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+padding: 8px 0;
+margin: 8px;
+text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li{
+display: inline;
+}
+
+.chromestyle ul li a{
+color: #494949;
+padding: 1px 1px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #DADADA;
+}
+
+.chromestyle ul li a:hover{
+background: url(chromebg-over.gif) center center repeat-x; /*THEME CHANGE HERE*/
+}
+
+.chromestyle ul li a[rel]:after{ /*HTML to indicate drop down link*/
+content: " v";
+/*content: " " url(downimage.gif); /*uncomment this line to use an image instead*/
+}
+
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+	position:absolute;
+	top: 30;
+	border: 1px solid #e22121; /*THEME CHANGE HERE*/
+	border-bottom-width: 1px;
+	border-top-width: 10px;
+	font:normal 12px Verdana;
+	line-height:13px;
+	z-index:100;
+	visibility: hidden;
+	width:120px; 
+	left: 10px;
+   background-color: white;
+   filter: progid:DXImageTransform.Microsoft.Shadow(color=#fafafa,direction=230,strength=5); /*Add Shadow in IE. Remove if desired*/
+}
+
+
+.dropmenudiv a{
+
+display: block;
+text-indent: 0px;
+border-bottom: 0px solid #BBB; /*THEME CHANGE HERE*/
+padding: 2px 0;
+text-decoration: none;
+font-weight: normal;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color: black;
+padding-left:0px;
+background-color: white; /* background color font color of dropdownmenu can be change here */
+border-left:1px solid #D3DDE6;
+border-right:1px solid #D3DDE6;
+
+}
+
+
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: #F0F0F0;
+color:#0066cc;
+background-image:url(../images_cand/newtj_img/arrow_r.gif);
+background-position:left center;
+background-repeat:no-repeat;
+text-decoration: none;
+}
+
+.menuImgBot{
+background-image:url(../images_cand/newtj_img/menu-bot.gif); 
+background-repeat:no-repeat;}
+
+/*        Chrome Menu End        */
+
+a{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#000000;
+text-decoration:none;
+}
+a:hover{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:normal;
+color:#ffffff;
+text-decoration:none;
+}
+
+.smallpoints {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: 'Verdana','Arial' ,'Helvetica', 'sans-serif'
+}
+
+.loctext {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0066cc; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+/*      -------------        Context Menu  Start     ------------      */
+
+
+.skin0{
+position:absolute;
+width:165px;
+border:2px solid black;
+background-color:menu;
+font-family:Verdana;
+line-height:20px;
+cursor:pointer;
+font-size:14px;
+z-index:100;
+visibility:hidden;
+}
+
+.menuitems{
+padding-left:10px;
+padding-right:10px;
+}
+
+
+
+/*      -------------        Context Menu   End    ------------      */
+
+
+.browseBY{
+float:left;
+width:100%;
+height:28px;
+border-top:1px solid #91A7B4;
+border-bottom:1px solid #91A7B4;
+background-image:url(../images_cand/newtj_img/browseby-bg.gif);
+margin-top:4px;}
+
+.browseLinks {
+position:relative;
+float:left;
+width:100%;
+height:75px;
+border-bottom:1px solid #91A7B4;
+font-size:10px;
+font-weight:bold;
+color:#003366;
+}
+.browseLinks a {
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#666666;
+text-decoration:none;
+font-weight:normal;
+margin-left:2px;}
+
+.browseLinks a:hover {
+font-family:Tahoma, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#003399;
+text-decoration:underline;
+font-weight:normal;
+}
+
+
+/*  Visibility Code Start */
+
+.div-login {
+position:absolute;
+width: 340px;
+padding: 0px;
+color: black;
+border:4px solid #2B9CE5;
+display: none;
+top:23px;
+right:1%;
+Z-INDEX: 101;
+}
+/*#tjLogin1{
+position:fixed !important;}
+
+* HTML #tjLogin1{
+position:absolute;}
+*/
+#blockov {
+	Z-INDEX: 100; FILTER: alpha(opacity=75); LEFT: 0px; WIDTH: 100%; POSITION: fixed; TOP: 0px; margin:0px; padding:0px; HEIGHT: 100%; BACKGROUND-COLOR: #4989B2; -moz-opacity: 0.75; opacity: 0.75; display:none;
+}
+* HTML #blockov {
+	POSITION: absolute;  HEIGHT: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px'); z-index:100;
+}
+
+/*  Visibility Code End */

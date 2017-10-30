@@ -1,0 +1,82 @@
+BODY {
+	PADDING-RIGHT: 0px; BACKGROUND: #DCE7F8; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 7px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.container {
+	BACKGROUND: #ffffff; WIDTH: 772px
+}
+.mlogin {
+	FONT-SIZE: 12px; COLOR: #334a80
+}
+.linput {
+	FONT-SIZE: 11px; BACKGROUND: #deedfb; COLOR: #0439a4
+}
+.mn {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mn:link {
+	TEXT-DECORATION: none
+}
+active {
+	TEXT-DECORATION: none
+}
+visited {
+	TEXT-DECORATION: none
+}
+A.mn:hover {
+	TEXT-DECORATION: underline
+}
+.cc {
+	MARGIN: 50px 0px 20px
+}
+.icc {
+	MARGIN: 50px 10px 20px
+}
+.bodytext {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-ALIGN: justify
+}
+.hlight {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ff0000
+}
+.hlighthp {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN: 0px; COLOR: #ff0000
+}
+.pgh {
+	FONT-SIZE: 22px; COLOR: #ff0000
+}
+.btmc {
+	FONT-SIZE: 10px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.btmc:link {
+	TEXT-DECORATION: none
+}
+active {
+	TEXT-DECORATION: none
+}
+visited {
+	TEXT-DECORATION: none
+}
+A.btmc:hover {
+	TEXT-DECORATION: underline
+}
+.ul {
+	TEXT-DECORATION: underline
+}
+.hh {
+	HEIGHT: 76px
+}
+.ish {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../images/intl-head-bg.gif) repeat-x; PADDING-BOTTOM: 5px; VERTICAL-ALIGN: middle; COLOR: #2f4378; PADDING-TOP: 5px; HEIGHT: 26px
+}
+.iform {
+	FONT-SIZE: 12px; COLOR: #2f4378
+}
+.ifinput {
+	FONT-SIZE: 11px; BACKGROUND: #f6f8ff; COLOR: #2f4378
+}
+IMG.client {
+	BORDER-RIGHT: #ccd0eb 1px solid; BORDER-TOP: #ccd0eb 1px solid; BORDER-LEFT: #ccd0eb 1px solid; BORDER-BOTTOM: #ccd0eb 1px solid
+}
+

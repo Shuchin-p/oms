@@ -1,0 +1,35 @@
+select,body {margin: 0 0; font-family: Verdana, Arial, Tahoma; font-size: 11px;}
+div {margin:0px;}
+p {margin:0px;}
+span {vertical-align: middle;}
+td {font-family: Verdana, Arial, Tahoma; font-size: 11px;}
+.hd {color:#053B83;}
+img {border: 0;}
+.cj_border { border: 1px solid #CCCCCC;}
+.txtbox { color:#666666;border: 1px solid #7F9DB9; font-family: Verdana, Arial, Tahoma; font-size: 11px;}
+.selbox { color:#666666;border: 1px solid #7F9DB9; font-family: Verdana, Arial, Tahoma; font-size: 11px;}
+.newtitle{ background-color:#CAECF7;font-family: Tahoma, Verdana, Arial ;color:#003195;font-weight:bold;padding:8px 0px 8px 10px;border-top: 1px solid #487AB5;border-right: 1px solid #487AB5;}
+.titlehlp{ background-color:#EFF9FD;font-family: Tahoma, Verdana, Arial ;color:#487AB5;padding:8px 0px 8px 10px;border-top: 1px solid #487AB5;}
+.infofld1{ color:#002B39;padding:7px 0px 7px 10px;border-right:1px dashed #487AB5;}
+.infofld2{ color:#002B39;padding:0px 0px 0px 10px;}
+.infofld2a{ color:#002B39;padding:6px 5px 6px 5px;}
+.infofld2b{ color:#002B39;padding:6px 5px 6px 5px;}
+.infofld2c{ vertical-align: top;color:#002B39;padding:8px 5px 8px 5px;}
+.infofld3{padding:7px;}
+.infofld3a{padding:8px;}
+.infofld3b{padding:0px 0px 0px 8px;}
+.infofld4{padding:5px;}
+.infofld4_err{padding:8px 0px 5px 0px;}
+.infofld1_new{ color:#002B39;padding:10px 0px 0px 8px;border-right:1px dashed #487AB5;}
+/*.infofld1_new{ color:#002B39;padding:10px 0px 0px 8px;background-repeat:repeat-y;background-image:url('http://imgs.clickjobs.com/images/js/icons/right-dot.jpg');}*/
+.infofld4_new{padding:10px 0px 0px 15px;}
+.infofld5{ color:#002B39;border-right:1px dashed #487AB5;}
+.edutitle{color:#4868A9;font-family: Tahoma, Verdana, Arial ;font-weight:bold;}
+.note{color:#666666;}
+.doc{color:#172E5C;}
+.tipcontent{line-height:16px;}
+.subbtn{border-top:1px solid #5074A4;padding:5px;}
+.titletd { color:#ffffff;font-weight:bold;padding:5px;background-color:#5074A4;border-bottom:1px solid #5074A4;}
+.titletd1 { border-bottom:1px solid #5074A4;}
+.tooltip {font-family: Arial; font-size: 8pt; text-align: left; width: 190px; position:absolute; z-index:1000;}
+.error {font-weight: bold;	color: red;}
